@@ -24,7 +24,7 @@
 
         const createAndAnimate = (x,y,z) => {
             let geometry = new THREE.BoxGeometry();
-            let material = new THREE.MeshBasicMaterial({color:0xffffff,wireframe : true});
+            let material = new THREE.MeshNormalMaterial();
             let cube = new THREE.Mesh(geometry,material);
 
             scene.add(cube); //Add the cube to the scene
