@@ -20,7 +20,7 @@
         renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(renderer.domElement);
 
-
+        //Create and animate the cube
 
         const createAndAnimate = (x,y,z) => {
             let geometry = new THREE.BoxGeometry();
