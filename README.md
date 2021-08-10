@@ -3,5 +3,4 @@
 ****************************************************************************
 NOTE : You should run the page with a LocalHost (LiveServer Extension , ..etc.)
 ****************************************************************************
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/Z2w2Zbf"  ><a href="//imgur.com/a/Z2w2Zbf">Three.js Duff cube Demo</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
+![](https://media4.giphy.com/media/ZmfvtjfRYvWtpNV1E5/giphy.gif?cid=790b761171f1eba6369a2ff4e0cb920fc25b8da314fade24&rid=giphy.gif&ct=g)
