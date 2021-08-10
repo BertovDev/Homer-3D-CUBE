@@ -3,11 +3,15 @@
         //create Scene
         let scene = new THREE.Scene();
 
-        //Set Image background
+        //Set Textures
+        //Background texture
         let loader = new THREE.TextureLoader();
-        loader.load("./background.jpg", function (texture) {
+        loader.load("./textures/background.jpg", function (texture) {
             scene.background = texture;
         })
+
+        //Cube texture
+        const cubeLoader = new THREE.TextureLoader();
 
         //create camera
         let camera = new THREE.PerspectiveCamera(
@@ -24,7 +28,9 @@
 
         const createAndAnimate = (x,y,z) => {
             let geometry = new THREE.BoxGeometry();
-            let material = new THREE.MeshNormalMaterial();
+            let material = new THREE.MeshBasicMaterial({
+                map: cubeLoader.load("./textures/duff1.png")
+            });
             let cube = new THREE.Mesh(geometry,material);
 
             scene.add(cube); //Add the cube to the scene
